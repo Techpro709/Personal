@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport"    
+  content="width=device-width">
+ <link rel="stylesheet" href="style.css">
+ <title>Cipher machine</title>
+      
+<script src="script.js"></script>  
+    
+
+</head>
+<body>
+  <form>       
+   <h1>Cipher</h1>   
+   <p id="titleId">Plain text</p>
+  
+   <div>          
+    <textarea name="sourceText" 
+       rows="3"
+       cols="50"         
+       spellcheck="false"
+       value="">                       
+    </textarea>
+   </div>
+  
+   <div>      
+    <input type="number" name="shift" id="shift">
+  </div>
+   <br>
+  <div>      
+    <input type="button" id="decrypt" 
+       value="Encrypt" 
+       onclick="encryptText();">
+    <input type="button" id="decrypt" 
+       value="Decrypt" 
+       onclick="decryptText();">    
+  </div>
+  
+  </form>
+</body>
+</html>
